@@ -1,0 +1,23 @@
+{
+  "name": "paranoia_for_foundry",
+  "version": "1.0.0",
+  "description": "CSS compiler for the Support the Computer, Support Paranoia for Foundry system",
+  "scripts": {
+    "build": "gulp",
+    "compile": "gulp css",
+    "watch": "gulp",
+    "gulp": "gulp"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "Wizard-U-VTT-9",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}

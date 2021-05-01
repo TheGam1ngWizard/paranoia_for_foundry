@@ -1,0 +1,132 @@
+{
+	"Actor": {
+		"types": [
+			"troubleshooter"
+		],
+		"templates": {
+			"base": {
+				"biography": "",
+				"memory": "",
+				"name": null,
+				"sec_clearance": "Infrared",
+				"home_sector": "AAA",
+				"clone": {
+					"value": 1,
+					"min": 0,
+					"max": 6
+				},
+				"moxie": {
+					"value": 8,
+					"max": 8,
+					"min": 0
+				},
+				"gender": "",
+				"personality": {
+					"personality_trait_1": "",
+					"personality_trait_2": "",
+					"personality_trait_3": ""
+				},
+				"wounds": {
+					"hurt": false,
+					"injured": false,
+					"maimed": false,
+					"dead": false
+				},
+				"development": {
+					"treason_rating": 0,
+					"xp_points": 0
+				}
+			},
+			"stats": {
+				"stats": {
+					"violence": {
+						"value": 0
+					},
+					"chutzpah": {
+						"value": 0
+					},
+					"brains": {
+						"value": 0
+					},
+					"mechanics": {
+						"value": 0
+					}
+				}
+			},
+			"skills": {
+				"skills": {
+					"athletics": {
+						"value": 0
+					},
+					"guns": {
+						"value": 0
+					},
+					"melee": {
+						"value": 0
+					},
+					"throw": {
+						"value": 0
+					},
+					"science": {
+						"value": 0
+					},
+					"psychology": {
+						"value": 0
+					},
+					"bureaucracy": {
+						"value": 0
+					},
+					"alpha_complex": {
+						"value": 0
+					},
+					"bluff": {
+						"value": 0
+					},
+					"charm": {
+						"value": 0
+					},
+					"intimidate": {
+						"value": 0
+					},
+					"stealth": {
+						"value": 0
+					},
+					"operate": {
+						"value": 0
+					},
+					"engineer": {
+						"value": 0
+					},
+					"program": {
+						"value": 0
+					},
+					"demolitions": {
+						"value": 0
+					}
+				}
+			}
+		},
+		"troubleshooter": {
+			"templates": [
+				"base", "stats", "skills"
+			]
+		}
+	},
+	"Item": {
+		"types": [
+			"item"
+		],
+		"templates": {
+			"base": {
+				"description": ""
+			}
+		},
+		"item": {
+			"templates": [
+				"base"
+			],
+			"quantity": 1,
+			"weight": 0
+		}
+	}
+}

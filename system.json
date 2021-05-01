@@ -1,0 +1,29 @@
+{
+  "name": "paranoia_for_foundry",
+  "title": "Paranoia for Foundry",
+  "description": "Support the Computer, Support Paranoia for Foundry!",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "0.7.9",
+  "templateVersion": 2,
+  "author": "Wizard-U-VTT-9",
+  "esmodules": ["module/paranoia_for_foundry.js"],
+  "styles": ["css/paranoia_for_foundry.css"],
+  "scripts": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "treason_stars",
+  "secondaryTokenAttribute": "moxie",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
+}
